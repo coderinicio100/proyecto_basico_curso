@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto básico</title>
+    <style>
+        /*  Reset de la pagina        */
+        * {padding: 0;
+           margin: 0;}
+
+           a {text-decoration: none;}
+
+
+        /*  Codigo pagina        */
+
+        header,nav,main,footer {width: 80%;
+                                margin: 0 auto;}
+
+        header { 
+                min-height: 8rem;
+                background-color: pink;}
+
+        nav{   
+                min-height: 4rem;
+                background-color: orange;}
+
+        main {  
+                min-height: 20rem;
+                background-color: lightblue;
+                display: flex;
+                justify-content:space-around;
+                flex-wrap: wrap;
+            
+            
+            }
+
+        footer {
+                min-height: 7rem;
+                background-color: chartreuse;}
+
+        .ponerBorde {border: 0.3rem solid black;}
+
+        main div {width: 30%;
+                min-height: 5rem;
+                background-color: lightgray;
+                border: 0.2rem solid red;}
+
+        .izda {background-color: rgba(215, 221, 48, 0.533);}
+         .dcha {background-color: rgb(140, 215, 65);}
+    </style>
+</head>
+<body>
+
+    <header>
+
+    </header>
+
+    <nav class="ponerBorde">
+
+    </nav>
+
+    <main id="principal">
+        <div class="izda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+            Soluta id illum veritatis quam numquam harum. Repellat a voluptatibus 
+            pariatur incidunt.</div>
+        <div class="dcha">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit 
+            porro inventore impedit veritatis iste placeat necessitatibus amet 
+            natus! Deserunt.</div>
+        <div class="centro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit 
+            orro inventore impedit veritatis iste placeat necessitatibus amet 
+            natus! Deserunt.</div>
+        <div class="2izda">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic velit 
+            orro inventore impedit veritatis iste placeat necessitatibus amet 
+            natus! Deserunt.</div>
+    </main>
+
+    <footer class="ponerBorde"> 
+
+    </footer>
+
+    
+</body>
+</html>
